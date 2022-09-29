@@ -1,0 +1,15 @@
+@mixin badgeStatusCommon($className, $color) {
+  &.#{$className} .ant-badge-status-text {
+    color: $color;
+  }
+}
+
+.badge-status-app.ant-badge {
+  .ant-badge-status-dot {
+    width: 12px;
+    height: 12px;
+  }
+
+  @include badgeStatusCommon('success', $color_success);
+  @include badgeStatusCommon('error', $color_text_alert_warning);
+}

@@ -1,0 +1,17 @@
+.ant-popover.app-popover {
+  position: fixed;
+  .ant-popover-inner {
+    background: #fcfcfd;
+    border-radius: 12px;
+  }
+  .ant-popover-inner-content {
+    padding: 16px;
+    // border-radius: 12px;
+  }
+}
+
+// .ant-popover.popover-header {
+//   .ant-menu-item {
+//     padding: 0 !important;
+//   }
+// }

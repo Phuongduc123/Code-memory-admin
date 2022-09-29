@@ -1,0 +1,26 @@
+.ant-layout-header.header {
+  background: $color_bg_page;
+  padding: 0 50px;
+  margin: 20px 0;
+  .info-wrap {
+    float: right;
+    width: max-content;
+    height: 100%;
+    background: $color_bg_wrap;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 16px;
+    &:hover {
+      opacity: 0.7;
+    }
+    h4.ant-typography {
+      font-weight: 600;
+      margin-bottom: 2px;
+      font-size: $font_size_base - 2;
+    }
+    &__name-tag {
+      @include _flexBox(flex-end, center);
+      flex-direction: column;
+    }
+  }
+}

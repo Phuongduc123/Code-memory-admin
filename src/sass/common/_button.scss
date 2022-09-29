@@ -1,0 +1,32 @@
+@mixin _styleAntButton($className, $primary) {
+  &.#{$className}:not(.ant-btn-dangerous) {
+    background: $primary;
+    border: $primary;
+  }
+}
+
+.ant-btn.app-btn {
+  > span {
+    font-weight: 500;
+    font-size: $font_size_base - 2;
+    line-height: 21px;
+  }
+  @include _styleAntButton('ant-btn-primary', $color_primary);
+}
+
+.ant-btn-background-ghost.app-btn {
+  border: 2px solid $color_border_input;
+  color: $color_text_select;
+  @include _flexBox;
+  > svg {
+    margin-right: 4px;
+  }
+  &:hover {
+    background: #777e903b !important;
+    opacity: 0.7;
+  }
+}
+
+.btn-green.ant-btn-primary.ant-btn-circle {
+  background-color: $color_success !important;
+}

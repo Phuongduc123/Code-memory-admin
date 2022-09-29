@@ -1,0 +1,13 @@
+.ant-layout-sider.sider {
+  background: $color_bg_page;
+  min-width: 200px !important;
+  max-width: 200px !important;
+  border-right: 1px solid $color_border_input;
+  .ant-menu.ant-menu-root {
+    border: none;
+  }
+  .logo-slider {
+    width: 170px;
+    padding: 10px 0;
+  }
+}

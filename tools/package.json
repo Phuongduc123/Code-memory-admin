@@ -1,0 +1,20 @@
+{
+  "name": "one-card-frontend-tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "async": "3.1.0",
+    "googleapis": "45.0.0",
+    "i18next": "^20.3.4",
+    "lodash": "^4.17.20",
+    "log4js": "6.1.0",
+    "react-i18next": "^11.11.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,65 @@
+.blog-form-info-wrap {
+  position: sticky;
+  top: 0;
+  max-height: calc(100vh - 100px);
+}
+
+.add-blog-page {
+  display: grid;
+  grid-template-columns: 800px auto;
+  grid-column-gap: 50px;
+}
+
+.draft-editor {
+  &__form-wrapper {
+    width: 100%;
+    height: 100%;
+  }
+  &__form-editor,
+  &__form-view {
+    background-color: $color_bg_page;
+    padding: 20px;
+    margin-top: 12px;
+    min-height: 100px;
+    max-height: 500px;
+  }
+}
+
+.code-editor {
+  .code,
+  .code-editor-input {
+    width: 100%;
+  }
+}
+
+.section-form {
+  display: flex;
+  animation: fadein 1.5s;
+  position: relative;
+  &[draggable='true'] {
+    border: solid 1px $color_success;
+  }
+  .control-group {
+    border: solid 1px $color_primary;
+    padding: 6px;
+    width: max-content;
+    button {
+      display: block;
+    }
+    .ant-btn:first-child {
+      margin-bottom: 12px;
+    }
+    .ant-btn:last-child {
+      margin-top: 12px;
+    }
+  }
+  .control-field {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+  }
+  .field-item {
+    background-color: $color_bg_header_card;
+    width: 100%;
+  }
+}

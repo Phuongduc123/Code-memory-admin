@@ -1,0 +1,16 @@
+.login {
+  &__container {
+    max-width: 550px;
+    padding: 0 20px;
+    margin: auto;
+    min-height: 100vh;
+    @include _flexBox;
+  }
+  &__form {
+    box-shadow: $box_shadow_form_login;
+    width: 100%;
+    padding: 20px 30px;
+    border-radius: 14px;
+    border: 1px solid $color_primary;
+  }
+}

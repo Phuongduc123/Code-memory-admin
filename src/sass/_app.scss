@@ -1,0 +1,24 @@
+// // init Style common
+@import './common/variables';
+@import './common/minxin';
+@import './common/common';
+@import './common/button';
+@import './common/input';
+@import './common/select';
+@import './common/typography';
+@import './common/notify';
+@import './common/table';
+@import './common/badge';
+@import './common/modal';
+@import './common/popover';
+
+// Style layout
+@import './layout/index';
+
+// Style for pages
+@import './page/login';
+@import './page/blog';
+@import './page/tag';
+@import './page/seo';
+@import './page/projectList.scss';
+@import './page/skillList.scss';

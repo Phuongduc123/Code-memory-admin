@@ -1,0 +1,27 @@
+{
+    // "files.exclude": {
+    //     "node_modules": true
+    // },
+    // "search.exclude": {
+    //     "**/package-lock.json": true,
+    //     "**/.next": true
+    // },
+    // "typescript.tsdk": "node_modules/typescript/lib",
+    "cSpell.ignoreWords": [
+        "nprogress",
+        "crossdomain",
+        "unfetch",
+        "fortawesome",
+        "fontawesome",
+        "antd",
+        "reduxjs",
+        "swiper",
+        "lazyload",
+        "globby",
+        "persistor",
+        "sider",
+        "CodeMemoryAdmin",
+        "anticon",
+        "formik"
+    ],
+}

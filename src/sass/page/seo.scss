@@ -1,0 +1,31 @@
+.seo-page {
+  margin-bottom: 100px;
+  .title-form {
+    color: $color_primary;
+    margin-bottom: 30px;
+  }
+  .field-wrap {
+    margin-bottom: 22px;
+  }
+}
+
+.seo-history-page {
+  .history-wrap {
+    display: flex;
+    .time-line-left {
+      max-width: 500px;
+      width: 100%;
+    }
+    .into-right {
+      max-width: calc(100% - 500px);
+      width: 100%;
+    }
+    .hover-action.active * {
+      color: $color_primary;
+    }
+    .ant-timeline-item-label {
+      font-weight: bold;
+      color: $color_primary;
+    }
+  }
+}

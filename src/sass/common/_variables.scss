@@ -1,0 +1,62 @@
+// List break point screen
+// same as "sm" of antd < 576px
+$screen-xs: 575px;
+
+// same as "sm" of antd < 576px
+$screen-sm: 767px;
+
+// same as "md" of antd < 768px
+$screen-md: 991px;
+
+// same as "lg" of antd < 1200px
+$screen-lg: 1199px;
+
+// same as 1280px
+$screen-xl: 1280px;
+
+$color_bg_page: #ffffff;
+
+$color_bg_wrap: #f0f2f5;
+
+$color_primary: #3772ff;
+
+$color_border_input: #e6e8ec;
+
+$color_placeholder: #9ea7bc;
+
+$color_text_select: #777e90;
+
+$color_title_section: #23262f;
+
+$color_bg_header_card: #f5f5f5;
+
+$color_title_store: #23262f;
+
+$color_count_review: #3772ff;
+
+$color_bg_card: #f3f6fb;
+
+$color_name_review: #4f5566;
+
+$color_tag: #e6e6e6;
+
+$color_bg_content: #f8f8fb;
+
+// $color_background_card_login: #fff2e8;
+
+$color_text_alert_warning: #ef466f;
+
+$color_success: #52c41a;
+
+$color_sky: #698fb8;
+
+// width of container page
+$width_container: 1200px;
+
+// base font size
+$font_size_base: 16px;
+
+// // box-shadow-card-search
+// $box_shadow_card_search: 0px 64px 64px -48px rgba(31, 47, 70, 0.12);
+
+$box_shadow_form_login: 0 32px 64px -24px #33363c26;

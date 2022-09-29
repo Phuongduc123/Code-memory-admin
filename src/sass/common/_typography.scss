@@ -1,0 +1,17 @@
+.title-field-divider {
+  max-width: 800px;
+  min-width: unset !important;
+  .ant-divider-inner-text {
+    font-weight: bold;
+    font-size: $font_size_base + 4;
+    color: $color_primary;
+  }
+}
+
+.title-page.ant-typography {
+  font-size: $font_size_base + 14;
+}
+
+.bold {
+  font-weight: bold;
+}

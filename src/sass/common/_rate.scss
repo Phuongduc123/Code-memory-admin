@@ -1,0 +1,24 @@
+@mixin startSize($size) {
+    height: #{$size}px;
+    * {
+        height: #{$size}px;
+    }
+}
+
+ul.app-rate.ant-rate {
+    display: flex;
+    align-items: center;
+    div.ant-rate-star-second {
+        display: flex;
+        align-items: center;
+    }
+    &.size-14 {
+        @include startSize(14);
+    }
+    &.size-18 {
+        @include startSize(18);
+    }
+    &.size-30 {
+        @include startSize(30);
+    }
+}

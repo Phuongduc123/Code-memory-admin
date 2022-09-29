@@ -1,0 +1,57 @@
+.form-label-md {
+  .field-wrap {
+    margin-top: 14px;
+    &__label {
+      display: block;
+      font-weight: 500;
+      font-size: $font_size_base - 2;
+      line-height: 12px;
+      margin-bottom: 12px;
+    }
+  }
+}
+
+.field-wrap {
+  width: 100%;
+  margin-bottom: 12px;
+  .app-input-number {
+    width: 100% !important;
+  }
+  &__label {
+    display: block;
+    font-weight: 600;
+    font-size: $font_size_base;
+    line-height: 12px;
+    margin-bottom: 12px;
+  }
+  span.required {
+    font-size: $font_size_base - 4;
+    color: $color_text_alert_warning;
+  }
+}
+
+.field-wrap.upload-filed {
+  .ant-upload {
+    margin: 0;
+    height: auto;
+    min-width: 102px;
+    min-height: 102px;
+  }
+
+  &.blog-field-image {
+    .ant-upload {
+      min-width: unset;
+      width: 100%;
+    }
+    .app-spin {
+      width: 100% !important;
+    }
+  }
+
+  &.full-width {
+    .ant-upload {
+      width: 100%;
+    }
+  }
+}
+

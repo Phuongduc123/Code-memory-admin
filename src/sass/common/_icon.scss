@@ -1,0 +1,21 @@
+@keyframes pl1 {
+    25% {
+        box-shadow: 0 0 0 5px #0000;
+    }
+    80% {
+        box-shadow: 0 0 0 15px #0000;
+    }
+}
+
+.icon-action {
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 0 0 0 0 #0004;
+    &:hover {
+        opacity: 0.7;
+    }
+    &:active {
+        animation: pl1 1s infinite;
+        opacity: 0.5;
+    }
+}

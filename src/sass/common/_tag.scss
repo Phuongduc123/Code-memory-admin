@@ -1,0 +1,11 @@
+.app-tag {
+    background-color: $color_tag;
+    padding: 1px 12px;
+    font-weight: 500;
+    font-size: $font_size_base - 4;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: $color_title_store;
+    border-radius: 90px;
+}

@@ -1,0 +1,30 @@
+.tech-box {
+  margin-top: 20px;
+  .tech {
+    @include _hover_action;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: $color_bg_content;
+    background-color: $color_sky;
+    cursor: pointer;
+    padding: 5px 10px 5px 15px;
+    margin: 7px 0px;
+    border-radius: 5px;
+    font-weight: bold;
+    .avt-text {
+      display: flex;
+      align-items: center;
+      .text {
+        color: white !important;
+        margin-left: 5px;
+      }
+    }
+    .close-icon {
+      cursor: pointer;
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+  }
+}
